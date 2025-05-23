@@ -3,67 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于我们 - 投资公司</title>
+    <title>关于我们 - 硅谷科技评论 (SVTR.AI)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <p>公司Logo</p> 
+<body class="bg-slate-100 font-sans text-gray-700">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="logo">
+                <a href="index.html" class="text-2xl font-bold text-blue-600">硅谷科技评论 (SVTR.AI)</a> 
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3">首页</a></li>
+                    <li><a href="about.html" class="text-blue-600 font-semibold py-2 px-3">关于我们</a></li>
+                    <li><a href="strategy.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3">投资策略</a></li>
+                    <li><a href="portfolio.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3">投资组合</a></li>
+                    <li><a href="news.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3">新闻洞察</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3">联系我们</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="about.html">关于我们</a></li>
-                <li><a href="strategy.html">投资策略</a></li>
-                <li><a href="portfolio.html">投资组合</a></li>
-                <li><a href="news.html">新闻洞察</a></li>
-                <li><a href="contact.html">联系我们</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section class="history">
-            <h2>我们的历史</h2>
-            <p>公司成立于XXXX年，从最初的XX业务发展至今...</p>
-            <p>多年来，我们始终坚持XX理念，取得了XX成就...</p>
+    <main class="container mx-auto py-8 px-6">
+        <section class="history py-12 bg-white shadow rounded-lg p-8 border border-gray-200 mb-8">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-10 text-center">我们的历史</h2>
+            <p class="text-base text-gray-700 leading-relaxed max-w-3xl mx-auto">自[2023]年成立以来，硅谷科技评论 (SVTR.AI) 已发展成为业界领先的投资机构之一。我们见证并参与了中国经济的快速发展，成功投资并支持了众多创新企业的成长壮大。每一个里程碑都印证了我们对价值投资的坚持和对卓越企业家的承诺。</p>
         </section>
 
-        <section class="mission-values">
-            <h2>使命与价值观</h2>
-            <p><strong>使命：</strong>致力于为客户创造长期价值，推动社会进步。</p>
-            <p><strong>价值观：</strong></p>
-            <ul>
-                <li>诚信正直</li>
-                <li>客户至上</li>
-                <li>追求卓越</li>
-                <li>合作共赢</li>
-            </ul>
+        <section class="mission-values py-12 bg-white shadow rounded-lg p-8 border border-gray-200 mb-8">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-10 text-center">使命与价值观</h2>
+            <div class="max-w-3xl mx-auto">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">我们的使命</h3>
+                <p class="text-base text-gray-700 leading-relaxed mb-6">通过资本与智慧，赋能创新，驱动社会进步，为投资者创造长期价值。</p>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">核心价值观</h3>
+                <ul class="list-disc list-inside pl-4 space-y-2 text-gray-700">
+                    <li class="text-base leading-relaxed">诚信正直：是我们一切行为的基石。</li>
+                    <li class="text-base leading-relaxed">合作共赢：与企业家、合作伙伴及投资者共同成长。</li>
+                    <li class="text-base leading-relaxed">追求卓越：不断提升专业能力，挑战更高目标。</li>
+                    <li class="text-base leading-relaxed">长期主义：关注可持续发展和长期回报。</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="team">
-            <h2>核心团队</h2>
-            <div>
-                <h3>[团队成员姓名]</h3>
-                <p>[职位]</p>
-                <p>[简短介绍]...</p>
-            </div>
-            <div>
-                <h3>[团队成员姓名]</h3>
-                <p>[职位]</p>
-                <p>[简短介绍]...</p>
-            </div>
-            <div>
-                <h3>[团队成员姓名]</h3>
-                <p>[职位]</p>
-                <p>[简短介绍]...</p>
+        <section class="team py-12 bg-white shadow rounded-lg p-8 border border-gray-200 mb-8">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-10 text-center">核心团队</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="team-member bg-slate-50 border border-gray-200 rounded-lg p-6 shadow-sm text-center">
+                    <div class="w-24 h-24 rounded-full mx-auto mb-4 bg-gray-300"></div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">[创始人A姓名]</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">创始人兼管理合伙人。拥有超过[15]年的投资经验，专注于[互联网科技]和[企业服务]的投资。</p>
+                </div>
+                <div class="team-member bg-slate-50 border border-gray-200 rounded-lg p-6 shadow-sm text-center">
+                    <div class="w-24 h-24 rounded-full mx-auto mb-4 bg-gray-300"></div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">[合伙人B姓名]</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">合伙人。在[医疗健康]领域拥有丰富的行业经验和广泛的人脉资源。</p>
+                </div>
+                <div class="team-member bg-slate-50 border border-gray-200 rounded-lg p-6 shadow-sm text-center">
+                    <div class="w-24 h-24 rounded-full mx-auto mb-4 bg-gray-300"></div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">[合伙人C姓名]</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">合伙人。专注于[新能源材料]和[高端制造]领域的研究与投资。</p>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>© 2023 [公司名称]. 版权所有.</p>
+    <footer class="bg-gray-800 text-slate-200 text-center py-10 mt-16">
+        <p class="text-base leading-relaxed">&copy; 2023 硅谷科技评论 (SVTR.AI). 版权所有.</p>
     </footer>
 </body>
 </html>
